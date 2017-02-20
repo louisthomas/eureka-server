@@ -82,6 +82,7 @@
               <goal>tag</goal>
             </goals>
             <configuration>
+              <forceTags>true</forceTags>
               <image>${project.artifactId}:${project.version}</image>
               <newName>${docker.registry}/${project.artifactId}:${project.version}</newName>
             </configuration>
