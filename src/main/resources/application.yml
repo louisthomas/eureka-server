@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-service
+server:
+  port: 8761
+eureka:
+  dashboard:
+    path: /registry
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+management:
+  security:
+    enabled: false
